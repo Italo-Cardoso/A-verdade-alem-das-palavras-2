@@ -82,12 +82,21 @@
         font-size: 2em;
     }
 
+    .sinopse__texto {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .equipe {
-        padding-top: 1.5em;
+        padding-top: 2.5em;
     }
     
     .equipe__membro {
         padding-bottom: 2em;
+    }
+
+    .equipe__membros {
+        padding-bottom: 6em;
     }
     
     .equipe__imagem {
@@ -100,6 +109,23 @@
 
     .equipe__funcao {
         font-size: .8em;
+    }
+
+    .equipe-imagem img {
+        bottom: 5.5em;
+    }
+
+    .anuncio {
+        bottom: 5.7em;
+    }
+
+    .anuncio__titulo {
+        margin-bottom: 4em;
+    }
+
+    .rodape__redes {
+        margin-left: 40%;
+        margin-right: 40%;
     }
 }
 
@@ -135,7 +161,7 @@
         border-radius: 0;
         margin: 0;
         background-color: #070707;
-        padding-top: 0;
+        padding-top: 3em;
     }
 
     .equipe__membro {
@@ -165,6 +191,24 @@
         padding-top: 1em;
         padding-bottom: 1em;
         padding-left: .3em;
+    }
+
+    .equipe-imagem img {
+        bottom: 0em;
+    }
+
+    .anuncio {
+        bottom: .2em;
+        box-shadow: -7px -10px 35px rgba(0, 0, 0, 0.712);
+    }
+
+    .anuncio__titulo {
+        margin-bottom: 5em;
+    }
+
+    .rodape__redes {
+        margin-left: 35%;
+        margin-right: 35%;
     }
 }
 
@@ -228,4 +272,3 @@
         padding-left: .3em;
     }
 }
-
