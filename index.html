@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Verdade Além das Palavras - Cinema em Detalhe</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./src/img/logo.svg" alt="Logo do Cinema em Detalhe" class="cabecalho__logo">
+            <h2 class="cabecalho__titulo">A Verdade Além<br>Das Palavras</h2>
+            <ul class="cabecalho__ul">
+                <li><a href="">SINOPSE</a></li>
+                <li><a href="#equipe">EQUIPE</a></li>
+                <li><a href="">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="video">
+            <div class="video-container">
+                <video id="meuVideo" muted autoplay loop> <!-- TIRAR O MUTED NO PROJETO FINAL -->
+                    <source src="./src/img/movie.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+                <button id="toggleSound" class="overlay-button">🔊</button>
+                <div class="overlay-text">
+                    <h2>ASSISTA AGORA</h2>
+                    <a href="https://www.youtube.com/watch?v=6sXYTRcVciQ&list=PLZuPlvtcbQorMbyTgXwblFYCOifjy23Qs&index=4"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>            
+        </section>
+
+        <section class="equipe" id="equipe">
+
+            <div class="equipe__titulo hidden">
+                <h1>EQUIPE</h1>
+            </div>
+            
+            <div class="equipe__membros hidden">
+                <div class="equipe__membro hidden">
+                    <img class="equipe__imagem" src="./src/img/Produção/Douglas.jpg" alt="Douglas Alves">
+                    <h2 class="equipe__nome">Douglas Alves</h2>
+                    <h3 class="equipe__funcao">Diretor, Editor e Camêra</h3>
+                </div>
+
+                <div class="equipe__membro hidden">
+                    <img class="equipe__imagem" src="./src/img/Produção/Carine Crop.jpg" alt="Carine Correa">
+                    <h2 class="equipe__nome">Carine Correa</h2>
+                    <h3 class="equipe__funcao">Diretora Artistica</h3>
+                </div>
+
+                <div class="equipe__membro hidden">
+                    <img class="equipe__imagem" src="./src/img/Produção/Edu Caldeira Crop.jpg" alt="Edu Caldeira">
+                    <h2 class="equipe__nome">Edu Caldeira</h2>
+                    <h3 class="equipe__funcao">Produtor Musical</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./src/js/video.js"></script>
+</body>
+</html>

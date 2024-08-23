@@ -1,0 +1,231 @@
+@media (max-width: 1920px) {
+    .video-container {
+        max-width: 1440px;
+    }
+
+    .overlay-text {
+        padding: 1.5em 37.85em;
+        border-radius: 0;
+    }
+
+    .equipe__nome {
+        font-size: 2.5em;
+    }
+
+    .equipe__funcao {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1440px) {
+    .video-container {
+        max-width: 1280px;
+    }
+
+    .overlay-text {
+        padding: 1.5em 32.8em;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        padding-top: .5em;
+    }
+    
+    .cabecalho {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    
+    .cabecalho__titulo {
+        font-size: .8em;
+        margin-right: .2em;
+        text-align: center
+    }
+    
+    .cabecalho__ul {
+        gap: 1em;
+    }
+
+    .cabecalho__ul li {
+        font-size: .8em;
+    }
+
+    .video-container {
+        max-width: 680px;
+        padding-top: 1em;
+    }
+
+    video {
+        border-radius: 5px;
+    }
+
+    .overlay-button {
+        bottom: 85%;
+        left: 5%;
+        font-size: 10px;
+        padding: .5em;
+    }
+    
+    .overlay-text {
+        padding: 2px 4.45em;
+        border-radius: 2px;
+    }
+
+    .overlay-text h2 {
+        font-size: 1em;
+        text-wrap: nowrap;
+    }
+
+    .overlay-text i {
+        font-size: 2em;
+    }
+
+    .equipe {
+        padding-top: 1.5em;
+    }
+    
+    .equipe__membro {
+        padding-bottom: 2em;
+    }
+    
+    .equipe__imagem {
+        max-width: 60%;
+    }
+
+    .equipe__nome {
+        font-size: 1.2em;
+    }
+
+    .equipe__funcao {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 420px) {
+    .cabecalho__ul {
+        display: none;
+    }
+    
+    .video-container {
+        max-width: 100%;
+        padding-top: .5em;
+        border-radius: 0px;
+    }
+
+    .overlay-text {
+        padding: 2px 4.5em;
+        border-radius: 2px;
+    }
+
+    .equipe {
+        padding-top: 2em;
+    }
+
+    .equipe__titulo h1 {
+        font-size: 1.5em;
+        
+    }
+    
+    .equipe__membros {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1em;
+        border-radius: 0;
+        margin: 0;
+        background-color: #070707;
+        padding-top: 0;
+    }
+
+    .equipe__membro {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding: 0;
+        gap: .5em;
+        flex-wrap: nowrap;
+    }
+
+    .equipe__imagem {
+        max-width: 30%;
+        margin-left: .5em;
+        margin-top: .5em;
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.658);
+    }
+
+    .equipe__nome {
+        font-size: 1.5em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+        padding: 0;
+    }
+
+    .equipe__funcao {
+        font-size: .8em;
+        border-left: 2px #070707 solid;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: .3em;
+    }
+}
+
+@media (max-width: 360px) {
+    .video-container {
+        max-width: 100%;
+        padding-top: .5em;
+        border-radius: 0;
+    }
+
+    .overlay-text {
+        padding: 2px 4.5em;
+        border-radius: 2px;
+    }
+
+    .equipe {
+        padding-top: 2em;
+    }
+
+    .equipe__titulo h1 {
+        font-size: 1.5em;
+        
+    }
+    
+    .equipe__membros {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1em;
+        border-radius: 0;
+        margin: 0;
+        background-color: #070707;
+        padding-top: 0;
+    }
+
+    .equipe__membro {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding: 0;
+        gap: .5em;
+        flex-wrap: nowrap;
+    }
+
+    .equipe__imagem {
+        max-width: 30%;
+        margin-left: .5em;
+        margin-top: .5em;
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.658);
+    }
+
+    .equipe__nome {
+        font-size: 1.5em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+        padding: 0;
+    }
+
+    .equipe__funcao {
+        font-size: .8em;
+        border-left: 2px #070707 solid;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: .3em;
+    }
+}
+
