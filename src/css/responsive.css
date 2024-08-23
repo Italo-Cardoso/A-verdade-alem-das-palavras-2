@@ -96,7 +96,7 @@
     }
 
     .equipe__membros {
-        padding-bottom: 6em;
+        padding-bottom: 8em;
     }
     
     .equipe__imagem {
@@ -109,14 +109,6 @@
 
     .equipe__funcao {
         font-size: .8em;
-    }
-
-    .equipe-imagem img {
-        bottom: 5.5em;
-    }
-
-    .anuncio {
-        bottom: 5.7em;
     }
 
     .anuncio__titulo {
@@ -160,8 +152,8 @@
         gap: 1em;
         border-radius: 0;
         margin: 0;
-        background-color: #070707;
         padding-top: 3em;
+        padding-bottom: 2em;
     }
 
     .equipe__membro {
